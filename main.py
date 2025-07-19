@@ -255,3 +255,120 @@
 ###################################################################################################
                                     #Работа со списками#
 
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_1(s1):
+#     return sum(s1)
+
+# print(zadacha_1(s1))
+##################################
+
+# s1 = [1, 2, 3, 4, -1]
+# def zadacha_2(s1):
+#     if not s1:
+#         return None
+#     max_num = s1[0]
+#     min_num = s1[0]
+#     for num in s1:
+#         if num > max_num:
+#             max_num = num
+#         if num < min_num:
+#             min_num = num
+#     return max_num, min_num
+
+# print(zadacha_2(s1))
+##################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_3(s1):
+#     return sum(s1) / len(s1)
+
+# print(zadacha_3(s1))
+##################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_4(s1):
+#     count = 0
+#     for char in s1:
+#         count += 1
+#     return count
+
+# print(zadacha_4(s1))
+##################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_5(s1):
+#     stroka = ''
+#     for char in s1:
+#         stroka += str(char)
+#     return list(stroka[::-1])
+        
+# print(zadacha_5(s1))
+##################################
+
+# s1 = [1, 1 ,2, 3, 3, 4, 5]
+# def zadacha_6(s1):
+#     mno = set()
+#     for char in s1:
+#         mno.add(char)
+#     return list(mno)
+
+# print(zadacha_6(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# s2 = [6, 7, 8, 9, 10]
+# s3 = []
+# def zadacha_7(s1, s2):
+#     for char in s1:
+#         s3.append(char)
+#     for char in s2:
+#         s3.append(char)
+#     return s3
+
+# print(zadacha_7(s1, s2))
+###################################
+
+# s1  = [1, 2, 3, 4, 5]
+# def zadacha_8(s1):
+#     if len(s1) > 3:
+#         s1[3] = 42
+#     return s1    
+    
+# print(zadacha_8(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_9(s1):
+#     s1.remove(5)
+#     return s1
+    
+# print(zadacha_9(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_10(s1):
+#     for char in s1:
+#         if char % 2 != 0:
+#             s1.remove(char)
+#     return s1
+
+# print(zadacha_10(s1))
+###################################
+
+# s1 = ['apple', 'apple', 'banana', 'orange']
+# def zadacha_11(s1):
+#     count = s1.count('apple')
+#     return count
+
+# print(zadacha_11(s1))
+###################################
+
+s1 = ['api', 'banana', 'orange']
+def zadacha_12(s1):
+    lenght = 3
+    for char in s1:
+        if len(char) <= lenght:
+            s1.remove(char)
+    return s1
+
+print(zadacha_12(s1))
