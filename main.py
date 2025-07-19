@@ -363,12 +363,59 @@
 # print(zadacha_11(s1))
 ###################################
 
-s1 = ['api', 'banana', 'orange']
-def zadacha_12(s1):
-    lenght = 3
-    for char in s1:
-        if len(char) <= lenght:
-            s1.remove(char)
-    return s1
+# s1 = ['api', 'banana', 'orange']
+# def zadacha_12(s1):
+#     lenght = 3
+#     for char in s1:
+#         if len(char) <= lenght:
+#             s1.remove(char)
+#     return s1
 
-print(zadacha_12(s1))
+# print(zadacha_12(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5, 5]
+# def zadacha_13(s1):
+#     mno = set()
+#     for char in s1:
+#         mno.add(char)
+#         if len(mno) == len(s1):
+#             return f'Все элементы уникальны'
+#     return f'Есть повторяющиеся элементы'
+
+# print(zadacha_13(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# s2 = []
+# def zadacha_14(s1, s2):
+#     for char in s1:
+#         s2.append(char ** 2)
+#     return s2
+
+# print(zadacha_14(s1, s2))
+###################################
+
+# s1 = [-1, 2, 3, -4, -5]
+# s2 = []
+# def zadacha_15(s1):
+#     for char in s1: 
+#         if char < 0:
+#             char = 0
+#             s2.append(char)
+#         else:
+#             s2.append(char)
+#     return s2
+
+# print(zadacha_15(s1))
+###################################
+
+# s1 = ['apple', 'bananaa', 'orange']
+# s2 =[]
+# def zadacha_16(s1):
+#     s2 = sorted(s1, key=len)
+#     return s2
+
+
+# print(zadacha_16(s1))
+###################################
