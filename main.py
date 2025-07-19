@@ -234,5 +234,24 @@
    
 ##################################
 
-def zadacha_24(s1):
-    pass
+
+# import random 
+# import string
+
+# def zadacha_24(pass_lenght: int):
+#     if pass_lenght < 6:
+#         raise ValueError('Пароль должен быть не менее 6 символов')
+    
+#     chars_pass = string.ascii_letters + string.digits + string.punctuation
+    
+#     password = ''.join(random.choice(chars_pass) for _ in range(pass_lenght))
+#     return password
+    
+
+# print(zadacha_24(12))  # Пример вызова функции для генерации пароля длиной 8 символов
+##################################
+
+
+###################################################################################################
+                                    #Работа со списками#
+
