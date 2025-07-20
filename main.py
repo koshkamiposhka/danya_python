@@ -419,3 +419,132 @@
 
 # print(zadacha_16(s1))
 ###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# def zadacha_17(s1):
+#     chet_list = []
+#     ne_chet_list = []
+#     for char in s1: 
+#         if char % 2 == 0:
+#             chet_list.append(char)
+#         else:
+#             ne_chet_list.append(char)
+#     return chet_list, ne_chet_list
+
+
+# print(zadacha_17(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5]
+# s2 = [5, 7, 3, 2, 1]
+# s3 = []
+# def zadacha_18(s1, s2):
+#     for char in s1:
+#         if char in s2:
+#             s3.append(char)
+#     return s3
+
+# print(zadacha_18(s1, s2))
+###################################
+
+# s1 = [1, 1, 1, 2, 3, 4, 5]
+# def zadacha_19(s1):
+#     book = {}
+#     for char in s1:
+#         if char in book:
+#             book[char] += 1
+#         else:
+#             book[char] = 1
+#     return book
+
+# print(zadacha_19(s1))
+###################################
+
+# s1 = [1, 2, 3]  
+# def zadacha_20(s1, n):
+#    n = n % len(s1)
+#    return s1[-n:] + s1[:-n]
+
+# print(zadacha_20(s1, 1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5, 5]
+# def zadacha_21(s1):
+#     s2 = set()
+#     for char in s1:
+#         s2.add(char)
+#     return list(s2)
+
+# print(zadacha_21(s1))
+###################################
+
+# s1 = [1, 2, 3, 4, 5, 5]
+# def zadacha_21(s1):
+#     rezult = []
+#     for char in s1:
+#         if s1.count(char) == 1:
+#             rezult.append(char)
+#     return rezult       
+
+
+# print(zadacha_21(s1))
+###################################
+############# РАБОТА С СЛОВАРЯМИ #############
+# zadacha_1
+# s1 = {
+#     'name': 'Danya',
+#     'age': 22,
+#     'city': 'Moscow'
+# }
+###################################
+
+# s1 = {
+#     'name': 'Danya',
+#     'age': 22,
+#     'city': 'Moscow'
+# }
+# def zadacha_2(s1, key):
+#     return s1.get(key)
+
+# print(zadacha_1(s1, 'job'))
+###################################
+
+# s1 = {
+#     'name': 'Danya',
+#     'age': 22,
+#     'city': 'Moscow'
+# }
+# def zadacha_3(s1, key, value):
+#     s1[key] = value
+#     return s1
+
+# print(zadacha_2(s1, 'job', 'developer'))
+###################################
+
+# s1 = {
+#     'name': 'Danya',
+#     'age': 22,
+#     'city': 'Moscow',
+#     'job': 'developer'
+# }
+# def zadacha_4(s1, key):
+#     del s1[key]
+#     return s1
+
+# print(zadacha_4(s1, 'age'))
+###################################
+
+s1 = {
+    'name': 'Danya',
+    'age': 22,
+    'city': 'Moscow',
+    'job': 'developer'
+}
+def zadacha_5(s1, key):
+    return key in s1
+print(zadacha_5(s1, key='age'))
+            
+
+
+    
+
